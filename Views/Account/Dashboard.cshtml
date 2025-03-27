@@ -1,0 +1,6 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+<h2>Welcome, @ViewBag.Username!</h2>
+<p>You have successfully logged in to DBS Bank.</p>
+<a href="@Url.Action("Logout", "Account")" class="btn btn-danger">Logout</a>
